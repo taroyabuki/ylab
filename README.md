@@ -76,7 +76,7 @@ git clone https://github.com/taroyabuki/ylab.git
 
 ## 練習
 
-練習.mdを編集して，Copilot に実行を指示する．♠`/plan`で計画を立ててから実行してもよい．
+自分が PM 演習で作ったウェブアプリを再現できるように，練習.mdを編集して，Copilot に実行を指示する．♠`/plan`で計画を立ててから実行してもよい．
 
 ```
 練習.mdを実行する．
