@@ -1,0 +1,9 @@
+@default_files = ("draft");
+$latex = 'uplatex -synctex=1 -shell-escape -halt-on-error';
+$latex_silent = 'uplatex -synctex=1 -shell-escape -halt-on-error -interaction=batchmode';
+$bibtex = 'upbibtex';
+$dvipdf = 'dvipdfmx %O -o %D %S';
+$makeindex = 'upmendex %O -o %D %S';
+$pdf_mode = 3;
+$cleanup_mode = 2;
+$clean_ext = '%R.bbl %R.brf %R.dvi %R.synctex.gz %R.synctex';

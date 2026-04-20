@@ -1,0 +1,90 @@
+% Encoding: UTF8
+
+%必須項目が文献の種類によって異なることに注意．文献の種類は以下の通り：
+%・雑誌論文
+%・会議録論文
+%・arXivの論文
+%・ウェブページ
+%・その他（技術報告など）
+
+%論文を掲載しているウェブサイトで「BiBTeX」を表示させると，必要な項目についての情報が得られるだろう．
+
+%注意
+%・固有名詞などで，単語の途中に大文字が来るときは，{AlphaGo}のように波括弧で囲う．
+%・氏名は「太朗, 矢吹」ではなく「矢吹太朗」とする．
+%・著者が複数いる場合は「 and 」を使う．
+%・スペースを節約するために，課題研究概要と中間審査概要では，著者が複数の場合は「矢吹太朗 and others」としてもよい．
+
+
+
+%雑誌論文の例
+
+@article{矢吹2011,
+  
+  author       = {矢吹太朗 and 佐久田博司},
+  title        = {{SQL}による数独の解法とクエリオプティマイザの有効性},
+  journal      = {日本データベース学会論文誌},
+  year         = {2010},
+  volume       = {9},
+  pages        = {13--18},
+  number       = {2},
+  organization = {日本データベース学会}
+}
+
+
+
+%会議録論文の例
+
+@inproceedings{weko_187907_1,
+  author	  = {岩瀬翔 and 矢吹太朗},
+  title	    = {Twitter発言の分析による{Web}サービス障害の影響調査},
+  booktitle = {第80回全国大会講演論文集},
+  year 	    = {2018},
+  volume	  = {2018},
+  number	  = {1},
+  pages	    = {115--116}
+}
+
+
+
+%arXivの論文：論文のページ（例：https://arxiv.org/abs/2005.14165v4）の「cite as... for this version」の表記をnoteに記載する．閲覧日時は不要．
+
+@misc{brown2020language,
+      title  = {Language Models are Few-Shot Learners}, 
+      author = {Tom B. Brown and others},
+      year   = {2020},
+      note   = {arXiv:2005.14165v4},
+}
+
+
+
+%書籍の例
+
+@book{倉島2012,
+  author    = {倉島保美},
+  title     = {論理が伝わる世界標準の「書く技術」},
+  publisher = {講談社},
+  year      = {2012}
+}
+%第2版以降の場合は，「edition = {2},」などを追記する．
+
+
+
+%ウェブページの例
+
+@misc{母数の誤用,
+  author = {矢吹太朗},
+  title  = {「母数」の誤用について},
+  note   = {\url{https://taroyabuki.github.io/2018/01/15/misuse-of-the-word-parameter/}（参照 2018-08-01）}
+}
+
+
+
+%その他
+
+@misc{俯瞰報告書,
+  author = {科学技術振興機構研究開発戦略センター},
+  title  = {研究開発の俯瞰報告書　システム・情報科学技術分野},
+  year   = {2023},
+  note   = {\url{https://www.jst.go.jp/crds/report/CRDS-FY2022-FR-04.html}},
+}
