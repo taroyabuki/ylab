@@ -6,10 +6,10 @@
 
 エージェント|メモ
 --|--
-[GitHub Education](https://github.com/settings/education/benefits)|無料（申請が必要）
+Copilot CLI|[GitHub Education](https://github.com/settings/education/benefits) の申請が通れば無料で使える．
 Gemini CLI|Google アカウントで無料で使える．
-研究室のサーバ|Qwen3.6-27B．研究室LAN限定．同時利用1人
-Codex|ChatGPT Plusが必要，有料
+Qwen Code|研究室のサーバ（Qwen3.6-27B）．研究室内限定．同時利用1人
+Codex CLI|ChatGPT Plusが必要，有料
 Claude Code|Claude Proが必要，有料
 大学のGPGPUサーバ|授業使用中は連続使用は15分まで．この中では最も設定が難しい．
 
