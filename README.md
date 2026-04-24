@@ -104,7 +104,6 @@ sudo npm install -g @qwen-code/qwen-code@latest
 
 ```bash
 # 起動
-```bash
 qwen \
   --auth-type openai \
   --openai-base-url "http://10.100.192.10:8080/v1" \
